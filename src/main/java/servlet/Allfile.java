@@ -10,6 +10,9 @@ public class Allfile {
 	    }
 
 	 public static ArrayList<String> getFileName() {
+	     // absolute path in linux
+         // String absolutePath = this.getClass().getClassLoader().getResource("").getPath();
+         // string path = "/Users/xwz-apple/Documents"
 	      String path = "E:/test"; // 路径
 	      File f = new File(path);
 	     /* if (!f.exists()) {
